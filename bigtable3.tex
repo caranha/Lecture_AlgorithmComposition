@@ -1,0 +1,21 @@
+
+\renewcommand{\arraystretch}{1.4}
+
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Component Class} & \textbf{Name} & \textbf{User Parameters} \\
+    \hline
+\multirow{3}{*}{Constraint Handling}&
+	Penalty functions& $\beta_v\in\mathbb{R}_{>0}$ \\
+	\cline{2-3}
+	& \multirow{2}{*}{VBR}& $type \in \left\{ts;~sr;~vt\right\}$ \\
+	& & $p_f\in\left[0,1\right]$ (if $type = sr$) \\
+	\hline
+\multirow{3}{*}{Termination Criteria}&
+	Evaluations& $max_{eval}\in\mathbb{Z}_{>0}$ \\
+	\cline{2-3}
+	& Iterations& $max_{iter}\in\mathbb{Z}_{>0}$ \\
+	\cline{2-3}
+	& Time& $max_{time}\in\mathbb{R}_{>0}$ \\
+    \hline
+    \end{tabular} 

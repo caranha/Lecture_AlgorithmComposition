@@ -1,0 +1,31 @@
+
+\renewcommand{\arraystretch}{1.4}
+
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Component Class} & \textbf{Name} & \textbf{User Parameters} \\
+    \hline
+\multirow{9}{*}{Variation Operators}& 
+SBX recombination & $\eta_{\mathtt{X}}\in\mathbb{R}_{>0}$; $p_{\mathtt{X}}\in\left[0,1\right]$ \\
+	\cline{2-3}
+	& Polynomial mutation & $\eta_{\mathtt{M}}\in\mathbb{R}_{>0}$; $p_{\mathtt{M}}\in\left[0,1\right]$\\
+	\cline{2-3}
+	& \multirow{2}{*}{Differential mutation}& $\phi\in\mathbb{R}_{>0}$ \\
+	& & $basis \in\left\{rand;~mean;~wgi\right\}$\\
+	\cline{2-3}
+	& Binomial recombination&$\rho\in\left[0,1\right]$ \\
+	\cline{2-3}
+	& Truncation& --\\
+	\cline{2-3}
+	& \multirow{3}{*}{Local search} &$type \in\left\{tpqa;~dvls\right\}$ \\
+	& & $\tau_{ls}\in\mathbb{Z}_{>0}$; $\gamma_{ls}\in\left[0,1\right]$ \\
+	& & $\epsilon\in\mathbb{R}_{>0}$ (if $type = tpqa$) \\
+    \hline
+\multirow{3}{*}{Update Strategy}& 
+	Standard & --\\
+	\cline{2-3}
+	& Restricted & $nr\in\mathbb{Z}_{>0}$\\
+	\cline{2-3}
+	& Best &$nr\in\mathbb{Z}_{>0}$; $T_r\in\mathbb{Z}_{>0}$ \\
+    \hline
+    \end{tabular} 

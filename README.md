@@ -16,6 +16,8 @@ algorithms for specific tasks/domains.
 This talk was first given for the Master Course on Evolutionary
 Algorithms at the University of Malaga, on 2022/12/15.
 
+[Get the talk slide deck here.](Lecture_AlgoCluster_2022.pdf)
+
 ## Talk Details
 ### Title:
 
@@ -62,6 +64,7 @@ methodical research on meta-heuristics.
 
 - Fully List papers on "Further Reading" (Links, etc)
 - Improve third part of the presentation (less text on slides!)
+- Add Yuri's work on component analysis
 - Write a script
 - Measure time
 

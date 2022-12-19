@@ -16,7 +16,8 @@ algorithms for specific tasks/domains.
 This talk was first given for the Master Course on Evolutionary
 Algorithms at the University of Malaga, on 2022/12/15.
 
-[Get the talk slide deck here.](Lecture_AlgoCluster_2022.pdf)
+- [Get the talk slide deck here.](Lecture_AlgoCluster_2022.pdf)
+- [You can see a video of the original lecture here.](https://youtu.be/GBclo6cpYT8)
 
 ## Talk Details
 ### Title:
